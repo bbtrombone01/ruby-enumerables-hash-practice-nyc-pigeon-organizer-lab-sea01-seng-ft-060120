@@ -12,10 +12,8 @@ def nyc_pigeon_organizer(data)
   else
     pigeon_list[name][key] = [describe.to_s]
   end
-
-  #set name level 1-> key level 2 with describe as value of the hash
 else
-  pigeon_list[name] = {key => [describe.to_s]} #describe was symbol before so turn it to String
+  pigeon_list[name] = {key => [describe.to_s]} 
       end
      end
     end
